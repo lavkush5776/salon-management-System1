@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  
+
+<link rel="stylesheet" href="./services.css">
+
+</head>
+<body>
+  <div class="navbar">
+    <div class="dropdown">
+      <button class="dropbtn">SERVICES
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <div class="column">
+          <a href="handsfeet.html"><h3>Hands & Feet</h3></a>  
+          <a href="#">Hand Care</a>
+          <a href="#">Feet Care</a>
+          <a href="#">Nails</a>
+          <a href="#">All Hands & Feet Services</a>
+        </div>
+        <div class="column">
+          <a href="makeup.html"><h3>Makeup</h3></a> 
+          <a href="#">Styling</a>
+          <a href="#">Saree Drape</a>
+          <a href="#">Makeup</a>
+          <a href="#">Styling</a>
+          <a href="#">All Makeup Services</a>
+        </div>
+        <div class="column">
+          <a href="Hair.html"><h3>Hair</h3></a> 
+          <a href="#">Form </a>
+          <a href="#">Hair Care</a>
+          <a href="#">Colors</a>
+          <a href="#">Styling</a>
+          <a href="#">Hair Cut - Depilation</a>
+          <a href="#">All Hair Services</a>
+        </div>
+          <div class="column">
+         <a href="skin.html"><h3>Skin</h3></a>   
+            <a href="#">Skin Care - Treatment</a>
+            <a href="#">Body Care</a>
+            <a href="#">Skin Care</a>
+            <a href="#">Skin Care - Basics</a>
+            <a href="#">Skin Care - Depilation</a>
+            <a href="#">All Skin Services</a>
+          </div>
+          <div class="header column">
+            <h2>SERVICES</h2>
+          </div>  
+      </div>
+    </div>
+    <a href="#">WEDDING</a> 
+    <a href="#">SHOP</a>
+    <a href="#">OFFERS</a>
+    <a href="#">RUNWAY REWARDS</a>
+    <a href="#"> BOOK AN APPOINTMET</a>
+    <a href="#">FACTS</a>
+    <a href="index.html" style="float: right;">HOME</a>
+  </div>
+  <h1 class="h1">SERVICES</h1>
+
+  <div class="imgdiv">
+    <div class="row">
+    <div class="column1">
+      
+      <a href="skin.html"><b>SKIN</b></a><hr>
+    
+     <a href="Hair.html"><b>Hair</b></a><hr>
+     
+     <a href="makeup.html"><b>MAKEUP</b></a><hr>
+     
+      <a href="handsfeet.html"><b>HANDS & FEET</b></a><hr>
+    </div>
+    <div class="column1">
+      <a href="Hair.html">
+      <img id="img1" src="pictures/hairbg1.jpg" alt="Skin image" class="hover-shadow cursor hover">
+    </a>
+      <div class="imgtext">
+        <h4>HAIR</h4>
+      </div>
+    </div>
+    <div class="column1 ">
+      <a href="skin.html">
+      <img id="img2" src="pictures/service7.jpg" alt="Hair style"  class="hover-shadow cursor">
+    </a>
+    <div class="imgtext">
+      <a href=" skin.html">
+      <h4>SKIN</h4>
+      </a>
+    </div>
+    </div>
+  </div>
+    <div class="row">
+      <div class="column1">
+        <a href="#">
+          <img id="img5" src="pictures/product1.webp" alt="men image" class="hover-shadow cursor hover" >
+        </a>
+        <div class="imgtext">
+          <h4>SHOPS</h4>
+        </div>
+      </div>
+      <div class="column1">
+        <a href="makeup.html">
+        <img id="img3" src="pictures/service12.webp" alt="Makeup image"  class="hover-shadow cursor">
+      </a>
+      <div class="imgtext">
+        <h4>MAKEUP</h4>
+      </div>
+    </div>
+    <div class="column1">
+      <a href="handsfeet.html">
+      <img id="img4" src="pictures/service15.png" alt="hand and feet image"  class="hover-shadow cursor" >
+      </a>
+    <div class="imgtext">
+      <a href="handsfeet.html">
+      <h4>HANDS & FEET</h4>
+      </a>
+    </div>
+    </div>
+  </div>
+  
+      <!--here we are using script of images-->
+      <script>
+        x=document.getElementById("img1");
+       
+        x.addEventListener("mouseover", msg2);
+        function msg2(){
+           document.getElementById("img1").src="pictures/service11.jpg"
+        }
+        x.addEventListener("mouseout", msg3);
+        function msg3(){
+           document.getElementById("img1").src="pictures/service10.jpg"
+        }
+        y=document.getElementById("img2");
+        y.addEventListener("mouseover",img1);
+        function img1(){
+          document.getElementById("img2").src="pictures/service1.webp"
+        }
+        y.addEventListener("mouseout", img2);
+        function img2(){
+          document.getElementById("img2").src="pictures/service7.jpg"
+        }
+
+        z=document.getElementById("img3");
+        z.addEventListener("mouseover",img4);
+        function img4(){
+          document.getElementById("img3").src="pictures/service13.jpg"
+        }
+        z.addEventListener("mouseout", img5);
+        function img5(){
+          document.getElementById("img3").src="pictures/service12.webp"
+        }
+
+        p=document.getElementById("img4");
+        p.addEventListener("mouseover",img6);
+        function img6(){
+          document.getElementById("img4").src="pictures/service16.webp"
+        }
+        p.addEventListener("mouseout", img7);
+        function img7(){
+          document.getElementById("img4").src="pictures/service15.png"
+        }
+
+        r=document.getElementById("img5");
+        r.addEventListener("mouseover",img8);
+        function img8(){
+        document.getElementById("img5").src="pictures/product2.webp"
+        }
+        r.addEventListener("mouseout", img9);
+        function img9(){
+        document.getElementById("img5").src="pictures/product1.webp"
+        }
+    </script>
+   
+     <!--footer code-->
+
+  
+      <div class="footer">
+      <div class="container2" id="footer">
+        <h3>Follow us</h3>
+        <a href="https://twitter.com/5776lavkush" class="twitter"></a>
+      <a href="https://www.linkedin.com/in/lavkush-yadav-886225191/" class="linkedin"></a>
+      <a href="https://touch.facebook.com/lavkush.yadev.7" class="facebook"></a>
+      <a href="#" class="skype"></a>
+      <a href="https://www.instagram.com/lavkush_lsy/"  class="instagram"></a>
+      </div>
+      </div>
+   
+  
+
+
+</body>
+</html>

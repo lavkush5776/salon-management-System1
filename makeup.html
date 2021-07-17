@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  
+
+<link rel="stylesheet" href="./makeup.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn"><a href="services.html"> SERVICES</a>
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <div class="column">
+              <a href="handsfeet.html"><h3>Hands & Feet</h3></a>  
+              <a href="#">Hand Care</a>
+              <a href="#">Feet Care</a>
+              <a href="#">Nails</a>
+              <a href="#">All Hands & Feet Services</a>
+            </div>
+        <div class="column">
+          <a href="makeup.html"><h3>Makeup</h3></a> 
+          <a href="#">Styling</a>
+          <a href="#">Saree Drape</a>
+          <a href="#">Makeup</a>
+          <a href="#">Styling</a>
+          <a href="#">All Makeup Services</a>
+        </div>
+        <div class="column">
+          <a href="Hair.html"><h3>Hair</h3></a> 
+          <a href="#">Form </a>
+          <a href="#">Hair Care</a>
+          <a href="#">Colors</a>
+          <a href="#">Styling</a>
+          <a href="#">Hair Cut - Depilation</a>
+          <a href="#">All Hair Services</a>
+        </div>
+          <div class="column">
+         <a href="skin.html"><h3>Skin</h3></a>   
+            <a href="#">Skin Care - Treatment</a>
+            <a href="#">Body Care</a>
+            <a href="#">Skin Care</a>
+            <a href="#">Skin Care - Basics</a>
+            <a href="#">Skin Care - Depilation</a>
+            <a href="#">All Skin Services</a>
+          </div>
+          <div class="header column">
+            <h2>SERVICES</h2>
+          </div>  
+      </div>
+    </div> 
+    <a href="#">WEDDING</a>
+    <a href="#">SHOP</a>
+    <a href="#">OFFERS</a>
+    <a href="#">RUNWAY REWARDS</a>
+    <a href="#"> BOOK AN APPOINTMET</a>
+    <a href="#">FACTS</a>
+    <a href="index.html" style="float: right;">HOME</a>
+  </div>
+  <h1 class="h1">MAKEUP</h1>
+
+  <div class="imgdiv">
+    <div class="row">
+    <div class="column1" style="max-width: 20%;">
+        <a href="skin.html"><b>SKIN</b></a><hr>
+        <a href="Hair.html"><b>HAIR</b></a><hr>
+        <div id="mk">MAKEUP</div><hr>
+          <div class="makeup">
+              <a href="#">
+                  <p>Makeup</p>
+              </a>
+              <a href="#">
+                <p>Styling</p>
+            </a>
+            <a href="#">
+                <p>Saree Drape<p>
+            </a>
+            <a href="#">
+                <p>All Makeup Services</p>
+            </a>
+        </div>
+     
+      <a href="handsfeet.html"><b>HANDS & FEET</b></a><hr>
+    </div>
+    <div class="column1">
+      <a href="#">
+      <img id="img1" src="pictures/makeup.jpg" alt="hair care  image" class="hover-shadow cursor hover">
+    </a>
+      <div class="imgtext">
+        <h4>MAKEUP</h4>
+      </div>
+      <a href="#">
+        <img id="img3" src="pictures/makeup3.png" alt="SKIN care image"  class="hover-shadow cursor">
+      </a>
+      <div class="imgtext">
+        <h4>SAREE DRAPE</h4>
+      </div>
+    </div>
+    <div class="column1 ">
+      <a href="#">
+      <img id="img2" src="pictures/makeup5.jpg"  alt="Hair style"  class="hover-shadow cursor">
+    </a>
+    <div class="imgtext">
+      <h4>STYLING</h4>
+    </div>
+    </div>
+  </div>
+  
+      <!--here we are using script of images-->
+      <script>
+        x=document.getElementById("img1");
+       
+        x.addEventListener("mouseover", msg2);
+        function msg2(){
+           document.getElementById("img1").src="pictures/makeup2.jpg"
+        }
+        x.addEventListener("mouseout", msg3);
+        function msg3(){
+           document.getElementById("img1").src="pictures/makeup.jpg"
+        }
+        y=document.getElementById("img2");
+        y.addEventListener("mouseover",img1);
+        function img1(){
+          document.getElementById("img2").src="pictures/makeup6.jpg"
+        }
+        y.addEventListener("mouseout", img2);
+        function img2(){
+          document.getElementById("img2").src="pictures/makeup5.jpg"
+        }
+
+        z=document.getElementById("img3");
+        z.addEventListener("mouseover",img4);
+        function img4(){
+          document.getElementById("img3").src="pictures/makeup4.jpg"
+        }
+        z.addEventListener("mouseout", img5);
+        function img5(){
+          document.getElementById("img3").src="pictures/makeup3.png"
+        }
+
+    </script>
+   
+     <!--footer code-->
+
+    
+      <div class="footer">
+      <div class="container2" id="footer">
+        <h3>Follow us</h3>
+        <a href="https://twitter.com/5776lavkush" class="twitter"></a>
+      <a href="https://www.linkedin.com/in/lavkush-yadav-886225191/" class="linkedin"></a>
+      <a href="https://touch.facebook.com/lavkush.yadev.7" class="facebook"></a>
+      <a href="#" class="skype"></a>
+      <a href="https://www.instagram.com/lavkush_lsy/"  class="instagram"></a>
+      </div>
+      </div>
+    
+  
+
+
+</body>
+</html>
