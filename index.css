@@ -1,4 +1,11 @@
 
+
+  * {
+    box-sizing: border-box;
+   
+  }
+
+
 .scrollmenu {
     background-color: #333;
     overflow: hidden;
@@ -11,7 +18,7 @@
     color: white;
     text-align: center;
     padding: 14px 25px;
-    text-decoration: none;
+    text-decoration:none;
   }
   .scrollmenu a:hover{
     background-color:rgb(190, 14, 111);
@@ -60,9 +67,16 @@
       .h2{
         padding:3px 20px;
         text-align:center;
-        color:rgb(243, 60, 145);
+        color:#f31a1a;
         padding-top:0px;
         font-size: 1.5em;
+        margin-top:60px;
+      }
+      .column h3{
+        margin-left: 40px;
+      }
+      .column p{
+        margin-left: 50px;
       }
       button{
           padding:40px 40px;
@@ -111,7 +125,7 @@
   .column {
     float: left;
     width: 33.33%;
-    margin-left: 230px;
+    margin-left: 210px;
     margin-bottom: 0px;
   }
   
@@ -244,19 +258,23 @@
   opacity: 70px;
   font-size: 1.5em;
   float: left; 
+  text-decoration: none;
 }
-
-.imgtext h4{
-text-align: center;
-padding: 10px 10px 10px 10px;
-background-color: rgb(212, 193, 193);
-opacity: 80%;
-color: rgb(221, 78, 11);
-margin-top: -50px;
-margin-left: 1px;
-width:92%;
-
-}
+.column11{
+  max-width: 25%;
+  position: relative;
+  flex: 25%;
+  max-height: 20%;
+  padding: 0 4px;
+  margin-top: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color:#cccccc;
+  color: black;
+  opacity: 70px;
+  font-size: 1em;
+  float: left
+  }
 
 .column1 img {
    margin-top: 16px;
@@ -264,8 +282,30 @@ width:92%;
    border: 2px solid rgb(214, 22, 118);
     width: 420px;
     height:270px;
+   
     
   }
+  .column11 form{
+    background-color: white;
+    max-width: 100%;
+    padding:2px 2px 2px 2px;
+    text-align: center;
+  }
+  .imgtext h4{
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(212, 193, 193);
+    opacity: 80%;
+    color: rgb(221, 78, 11);
+    margin-top: -50px;
+    margin-left: 1px;
+    width:92%;
+    text-decoration: none;
+    }
+    .imgtext a{
+      text-decoration: none;
+    }
+  
 
   .demo {
     opacity: 0.7;
@@ -290,33 +330,5 @@ width:92%;
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
- 
 
-  * {
-    box-sizing: border-box;
-   
-  }
-
-  .column11{
-  max-width: 25%;
-  position: relative;
-  flex: 25%;
-  max-height: 20%;
-  padding: 0 4px;
-  margin-top: 5px;
-  margin-left: 30px;
-  margin-right: 30px;
-  background-color:#cccccc;
-  color: black;
-  opacity: 70px;
-  font-size: 1em;
-  float: left
-  }
-  .column11 form{
-    background-color: white;
-    max-width: 100%;
-    padding:2px 2px 2px 2px;
-    text-align: center;
-  }
-  /* only check*/
   
